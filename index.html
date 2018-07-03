@@ -1,0 +1,34 @@
+<!DOCTYPE HTML> 
+<html lang="en" ng-app="myApp"> 
+<head>  
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hello World</title> 
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js"></script>
+<script type="text/javascript" src="/node_modules/angular-ui-router/release/angular-ui-router.min.js"></script>
+<script type="text/javascript" src="/node_modules/@uirouter/core/_bundles/ui-router-core.min.js"></script>
+<script type="text/javascript" src="/node_modules/angular-ui-router/release/ui-router-angularjs.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="styles.css" type="text/css">
+<script type="text/javascript" src="app.js"></script>
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head> 
+<body ng-controller="myCtrl"> 
+
+<div class="container-fluid">
+<!-- <p>First Name  <input type="text" ng-model="firstname" placeholder="Enter first name"></input></p>
+<p>Last Name <input type="text" ng-model="lastname" placeholder="Enter last name"></input></p> 
+
+<h2>{{firstname + " "+ lastname}}</h2>  -->
+
+<!-- APP ID =angularjs-bot 314b3d1b74220ecd81379e5f8bacc5be2336da799bf7855d988bf3bded7b079d-->
+
+<!--- API Key for whether API=  b4a99b90679cac3be3c0607002be93b7  -->
+<div ng-include="'/Structure/menu.html'"></div>
+</div>
+<div ui-view></div>
+</body> 
+ </html>

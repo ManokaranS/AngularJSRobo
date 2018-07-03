@@ -1,0 +1,28 @@
+<h1>My Blog</h1>
+ <div class="row">
+<div class="col-md-12">
+<div class="panel-group">
+
+<div class="col-md-3 col-sm-4 col-xs-12" ng-repeat="blog in blogs" style="height:214px;">
+<div class="panel panel-default panel-primary">
+  <div class="panel-heading">{{newPost.title}}</div>
+  <div class="panel-body" ng-bind-html="newPost.content | limitTo: 100">
+  </div>
+  <div class="panel-footer">
+  <div class="row">
+  <div class="co-md-6">
+  <a class="btn btn-primary btn-sm" href="#/edit/{{blog._id}}">Edit Post<a>
+  </div>
+    <div class="co-md-6">
+  <a class="pull-right" href="#/view/{{blog._id}}">Read Now<a>
+  </div>
+  </div>
+  </div>
+</div>
+
+</div>
+</div>
+</div>
+
+</div>  
+

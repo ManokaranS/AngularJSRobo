@@ -1,0 +1,10 @@
+{
+  "appId": "angularjs-bot",
+  "apiKey": "314b3d1b74220ecd81379e5f8bacc5be2336da799bf7855d988bf3bded7b079d",
+  "public": "./",
+  "ignore": [
+    "stamplay.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}

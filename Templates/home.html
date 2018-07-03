@@ -1,0 +1,25 @@
+<div ng-include="'/Structure/Jumbotron.html'"></div>
+<!--- <div class="row">
+  <div class="progress">
+  <div class="progress-bar" role="progressbar" aria-valuenow="{{WeatherMap.main.temp}}"
+  aria-valuemin="0" aria-valuemax="300" style="width:70%">
+    {{WeatherMap.main.temp_min}}
+  </div>
+</div>
+  </div>
+  <div class="col-md-6"></div>
+</div> 
+
+app.controller('homeCtrl',function($scope,$http){
+	var API_KEY="b4a99b90679cac3be3c0607002be93b7";
+	$http.get("http://api.openweathermap.org/data/2.5/weather?q=London&appid="+API_KEY)
+	.then(success,failure);
+	function success(response){
+	console.log(response);
+	$scope.WeatherMap=response.data;
+	};
+	function failure(err){
+	console.log(err);
+	};
+});
+-->
